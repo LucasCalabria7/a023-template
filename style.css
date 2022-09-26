@@ -2,3 +2,58 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    align-items: center;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.padding-header {
+    padding: 0 1rem;
+}
+
+main {
+    background-color: rgb(200, 200, 200);
+    display: flex;
+    font-size: 2rem;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+footer {
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    height: 5vh;
+    font-size: 2rem;
+}
+
+.conteudo-principal {
+    display: flex;
+    border: 1px solid black;
+}
+
+.text-2 {
+    flex: 2;
+    border: 1px solid black;
+}
+
+.text-1, .text-3 {
+    flex: 1;
+    border: 1px solid black;
+}
+
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
